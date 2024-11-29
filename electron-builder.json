@@ -1,0 +1,22 @@
+{
+    "appId": "com.nguyen.desktop-app",
+    "productName": "My Desktop App",
+    "files": [
+        "dist-electron",
+        "dist-react"
+    ],
+    "icon": "./desktopIcon.png",
+    "mac": {
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": [
+            "portable",
+            "msi"
+        ]
+    }
+}
